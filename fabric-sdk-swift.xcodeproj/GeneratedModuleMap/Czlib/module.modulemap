@@ -1,0 +1,4 @@
+module Czlib {
+    umbrella "/Users/wzk/Documents/Developer/fabric-sdk-swift/.build/checkouts/zlib.git--9016602441419864029/Sources/Czlib/include"
+    export *
+}
