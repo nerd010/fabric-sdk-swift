@@ -21,7 +21,6 @@ xcuserdata/
 *.moved-aside
 *.xccheckout
 *.xcscmblueprint
-/*.xcodeproj
 
 ## Obj-C/Swift specific
 *.hmap
@@ -40,6 +39,7 @@ playground.xcworkspace
 # Package.pins
 .build/
 .DS_Store
+/*.xcodeproj
 
 # CocoaPods
 #
