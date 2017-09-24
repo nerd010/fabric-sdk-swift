@@ -34,6 +34,29 @@
 /* End PBXAggregateTarget section */
 
 /* Begin PBXBuildFile section */
+		1DDC31951F778121003FA4B0 /* proposal_response.pb.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DDC31891F778120003FA4B0 /* proposal_response.pb.swift */; };
+		1DDC31961F778121003FA4B0 /* admin.pb.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DDC318A1F778120003FA4B0 /* admin.pb.swift */; };
+		1DDC31971F778121003FA4B0 /* chaincode_event.pb.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DDC318B1F778120003FA4B0 /* chaincode_event.pb.swift */; };
+		1DDC31981F778121003FA4B0 /* chaincodeEvent.pb.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DDC318C1F778120003FA4B0 /* chaincodeEvent.pb.swift */; };
+		1DDC31991F778121003FA4B0 /* events.pb.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DDC318D1F778120003FA4B0 /* events.pb.swift */; };
+		1DDC319A1F778121003FA4B0 /* configuration.pb.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DDC318E1F778121003FA4B0 /* configuration.pb.swift */; };
+		1DDC319B1F778121003FA4B0 /* chaincode.pb.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DDC318F1F778121003FA4B0 /* chaincode.pb.swift */; };
+		1DDC319C1F778121003FA4B0 /* peer.pb.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DDC31901F778121003FA4B0 /* peer.pb.swift */; };
+		1DDC319D1F778121003FA4B0 /* proposal.pb.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DDC31911F778121003FA4B0 /* proposal.pb.swift */; };
+		1DDC319E1F778121003FA4B0 /* chaincodeShim.pb.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DDC31921F778121003FA4B0 /* chaincodeShim.pb.swift */; };
+		1DDC319F1F778121003FA4B0 /* query.pb.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DDC31931F778121003FA4B0 /* query.pb.swift */; };
+		1DDC31A01F778121003FA4B0 /* transaction.pb.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DDC31941F778121003FA4B0 /* transaction.pb.swift */; };
+		1DDC31A31F778135003FA4B0 /* ab.pb.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DDC31A11F778135003FA4B0 /* ab.pb.swift */; };
+		1DDC31A41F778135003FA4B0 /* configuration.pb.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DDC31A21F778135003FA4B0 /* configuration.pb.swift */; };
+		1DDC31A81F77814B003FA4B0 /* identity.pb.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DDC31A51F77814B003FA4B0 /* identity.pb.swift */; };
+		1DDC31A91F77814B003FA4B0 /* msp_principal.pb.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DDC31A61F77814B003FA4B0 /* msp_principal.pb.swift */; };
+		1DDC31AA1F77814B003FA4B0 /* mspconfig.pb.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DDC31A71F77814B003FA4B0 /* mspconfig.pb.swift */; };
+		1DDC31B01F77821F003FA4B0 /* Kv_rwset.pb.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DDC31AF1F77821F003FA4B0 /* Kv_rwset.pb.swift */; };
+		1DDC31B61F778233003FA4B0 /* configuration.pb.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DDC31B11F778233003FA4B0 /* configuration.pb.swift */; };
+		1DDC31B71F778233003FA4B0 /* ledger.pb.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DDC31B21F778233003FA4B0 /* ledger.pb.swift */; };
+		1DDC31B81F778233003FA4B0 /* configtx.pb.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DDC31B31F778233003FA4B0 /* configtx.pb.swift */; };
+		1DDC31B91F778233003FA4B0 /* common.pb.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DDC31B41F778233003FA4B0 /* common.pb.swift */; };
+		1DDC31BA1F778233003FA4B0 /* policies.pb.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DDC31B51F778233003FA4B0 /* policies.pb.swift */; };
 		OBJ_1063 /* Package.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_6 /* Package.swift */; };
 		OBJ_1069 /* Package.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_898 /* Package.swift */; };
 		OBJ_1075 /* Package.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_923 /* Package.swift */; };
@@ -1014,6 +1037,29 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1DDC31891F778120003FA4B0 /* proposal_response.pb.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = proposal_response.pb.swift; path = Sources/Proto/Peer/proposal_response.pb.swift; sourceTree = SOURCE_ROOT; };
+		1DDC318A1F778120003FA4B0 /* admin.pb.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = admin.pb.swift; path = Sources/Proto/Peer/admin.pb.swift; sourceTree = SOURCE_ROOT; };
+		1DDC318B1F778120003FA4B0 /* chaincode_event.pb.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = chaincode_event.pb.swift; path = Sources/Proto/Peer/chaincode_event.pb.swift; sourceTree = SOURCE_ROOT; };
+		1DDC318C1F778120003FA4B0 /* chaincodeEvent.pb.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = chaincodeEvent.pb.swift; path = Sources/Proto/Peer/chaincodeEvent.pb.swift; sourceTree = SOURCE_ROOT; };
+		1DDC318D1F778120003FA4B0 /* events.pb.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = events.pb.swift; path = Sources/Proto/Peer/events.pb.swift; sourceTree = SOURCE_ROOT; };
+		1DDC318E1F778121003FA4B0 /* configuration.pb.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = configuration.pb.swift; path = Sources/Proto/Peer/configuration.pb.swift; sourceTree = SOURCE_ROOT; };
+		1DDC318F1F778121003FA4B0 /* chaincode.pb.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = chaincode.pb.swift; path = Sources/Proto/Peer/chaincode.pb.swift; sourceTree = SOURCE_ROOT; };
+		1DDC31901F778121003FA4B0 /* peer.pb.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = peer.pb.swift; path = Sources/Proto/Peer/peer.pb.swift; sourceTree = SOURCE_ROOT; };
+		1DDC31911F778121003FA4B0 /* proposal.pb.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = proposal.pb.swift; path = Sources/Proto/Peer/proposal.pb.swift; sourceTree = SOURCE_ROOT; };
+		1DDC31921F778121003FA4B0 /* chaincodeShim.pb.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = chaincodeShim.pb.swift; path = Sources/Proto/Peer/chaincodeShim.pb.swift; sourceTree = SOURCE_ROOT; };
+		1DDC31931F778121003FA4B0 /* query.pb.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = query.pb.swift; path = Sources/Proto/Peer/query.pb.swift; sourceTree = SOURCE_ROOT; };
+		1DDC31941F778121003FA4B0 /* transaction.pb.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = transaction.pb.swift; path = Sources/Proto/Peer/transaction.pb.swift; sourceTree = SOURCE_ROOT; };
+		1DDC31A11F778135003FA4B0 /* ab.pb.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ab.pb.swift; path = Sources/Proto/Orderer/ab.pb.swift; sourceTree = SOURCE_ROOT; };
+		1DDC31A21F778135003FA4B0 /* configuration.pb.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = configuration.pb.swift; path = Sources/Proto/Orderer/configuration.pb.swift; sourceTree = SOURCE_ROOT; };
+		1DDC31A51F77814B003FA4B0 /* identity.pb.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = identity.pb.swift; path = Sources/Proto/Msp/identity.pb.swift; sourceTree = SOURCE_ROOT; };
+		1DDC31A61F77814B003FA4B0 /* msp_principal.pb.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = msp_principal.pb.swift; path = Sources/Proto/Msp/msp_principal.pb.swift; sourceTree = SOURCE_ROOT; };
+		1DDC31A71F77814B003FA4B0 /* mspconfig.pb.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = mspconfig.pb.swift; path = Sources/Proto/Msp/mspconfig.pb.swift; sourceTree = SOURCE_ROOT; };
+		1DDC31AF1F77821F003FA4B0 /* Kv_rwset.pb.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Kv_rwset.pb.swift; path = Sources/Proto/Ledger/Rwset/Kvrwset/Kv_rwset.pb.swift; sourceTree = SOURCE_ROOT; };
+		1DDC31B11F778233003FA4B0 /* configuration.pb.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = configuration.pb.swift; path = Sources/Proto/Common/configuration.pb.swift; sourceTree = SOURCE_ROOT; };
+		1DDC31B21F778233003FA4B0 /* ledger.pb.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ledger.pb.swift; path = Sources/Proto/Common/ledger.pb.swift; sourceTree = SOURCE_ROOT; };
+		1DDC31B31F778233003FA4B0 /* configtx.pb.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = configtx.pb.swift; path = Sources/Proto/Common/configtx.pb.swift; sourceTree = SOURCE_ROOT; };
+		1DDC31B41F778233003FA4B0 /* common.pb.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = common.pb.swift; path = Sources/Proto/Common/common.pb.swift; sourceTree = SOURCE_ROOT; };
+		1DDC31B51F778233003FA4B0 /* policies.pb.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = policies.pb.swift; path = Sources/Proto/Common/policies.pb.swift; sourceTree = SOURCE_ROOT; };
 		OBJ_100 /* e_des.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = e_des.c; sourceTree = "<group>"; };
 		OBJ_1000 /* timestamp.pb.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = timestamp.pb.swift; sourceTree = "<group>"; };
 		OBJ_1001 /* type.pb.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = type.pb.swift; sourceTree = "<group>"; };
@@ -2022,6 +2068,118 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1D16D0531F74138400503DAE /* HFC */ = {
+			isa = PBXGroup;
+			children = (
+				1DDC315F1F777BDB003FA4B0 /* FabricClient */,
+				1D16D0561F7413D100503DAE /* FabircCa */,
+			);
+			path = HFC;
+			sourceTree = SOURCE_ROOT;
+		};
+		1D16D0561F7413D100503DAE /* FabircCa */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = FabircCa;
+			path = HFC/FabircCa;
+			sourceTree = SOURCE_ROOT;
+		};
+		1DDC315F1F777BDB003FA4B0 /* FabricClient */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = FabricClient;
+			path = HFC/FabricClient;
+			sourceTree = SOURCE_ROOT;
+		};
+		1DDC31801F777D4F003FA4B0 /* Proto */ = {
+			isa = PBXGroup;
+			children = (
+				1DDC31881F7780D1003FA4B0 /* Peer */,
+				1DDC31871F7780BF003FA4B0 /* Orderer */,
+				1DDC31861F7780B0003FA4B0 /* Msp */,
+				1DDC31851F778095003FA4B0 /* Ledger */,
+				1DDC31831F778056003FA4B0 /* Common */,
+			);
+			name = Proto;
+			path = Sources;
+			sourceTree = "<group>";
+		};
+		1DDC31831F778056003FA4B0 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				1DDC31B41F778233003FA4B0 /* common.pb.swift */,
+				1DDC31B31F778233003FA4B0 /* configtx.pb.swift */,
+				1DDC31B11F778233003FA4B0 /* configuration.pb.swift */,
+				1DDC31B21F778233003FA4B0 /* ledger.pb.swift */,
+				1DDC31B51F778233003FA4B0 /* policies.pb.swift */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		1DDC31851F778095003FA4B0 /* Ledger */ = {
+			isa = PBXGroup;
+			children = (
+				1DDC31AD1F7781C4003FA4B0 /* Rwset */,
+			);
+			path = Ledger;
+			sourceTree = "<group>";
+		};
+		1DDC31861F7780B0003FA4B0 /* Msp */ = {
+			isa = PBXGroup;
+			children = (
+				1DDC31A51F77814B003FA4B0 /* identity.pb.swift */,
+				1DDC31A61F77814B003FA4B0 /* msp_principal.pb.swift */,
+				1DDC31A71F77814B003FA4B0 /* mspconfig.pb.swift */,
+			);
+			path = Msp;
+			sourceTree = "<group>";
+		};
+		1DDC31871F7780BF003FA4B0 /* Orderer */ = {
+			isa = PBXGroup;
+			children = (
+				1DDC31A11F778135003FA4B0 /* ab.pb.swift */,
+				1DDC31A21F778135003FA4B0 /* configuration.pb.swift */,
+			);
+			path = Orderer;
+			sourceTree = "<group>";
+		};
+		1DDC31881F7780D1003FA4B0 /* Peer */ = {
+			isa = PBXGroup;
+			children = (
+				1DDC318A1F778120003FA4B0 /* admin.pb.swift */,
+				1DDC318B1F778120003FA4B0 /* chaincode_event.pb.swift */,
+				1DDC318F1F778121003FA4B0 /* chaincode.pb.swift */,
+				1DDC318C1F778120003FA4B0 /* chaincodeEvent.pb.swift */,
+				1DDC31921F778121003FA4B0 /* chaincodeShim.pb.swift */,
+				1DDC318E1F778121003FA4B0 /* configuration.pb.swift */,
+				1DDC318D1F778120003FA4B0 /* events.pb.swift */,
+				1DDC31901F778121003FA4B0 /* peer.pb.swift */,
+				1DDC31891F778120003FA4B0 /* proposal_response.pb.swift */,
+				1DDC31911F778121003FA4B0 /* proposal.pb.swift */,
+				1DDC31931F778121003FA4B0 /* query.pb.swift */,
+				1DDC31941F778121003FA4B0 /* transaction.pb.swift */,
+			);
+			path = Peer;
+			sourceTree = "<group>";
+		};
+		1DDC31AD1F7781C4003FA4B0 /* Rwset */ = {
+			isa = PBXGroup;
+			children = (
+				1DDC31AE1F7781DA003FA4B0 /* Kvrwset */,
+			);
+			path = Rwset;
+			sourceTree = "<group>";
+		};
+		1DDC31AE1F7781DA003FA4B0 /* Kvrwset */ = {
+			isa = PBXGroup;
+			children = (
+				1DDC31AF1F77821F003FA4B0 /* Kv_rwset.pb.swift */,
+			);
+			path = Kvrwset;
+			sourceTree = "<group>";
+		};
 		OBJ_10 /* Dependencies */ = {
 			isa = PBXGroup;
 			children = (
@@ -2985,7 +3143,7 @@
 			path = dns;
 			sourceTree = "<group>";
 		};
-		OBJ_5 /*  */ = {
+		OBJ_5 = {
 			isa = PBXGroup;
 			children = (
 				OBJ_6 /* Package.swift */,
@@ -2994,7 +3152,6 @@
 				OBJ_10 /* Dependencies */,
 				OBJ_1047 /* Products */,
 			);
-			name = "";
 			sourceTree = "<group>";
 		};
 		OBJ_500 /* c_ares */ = {
@@ -3523,6 +3680,8 @@
 		OBJ_7 /* Sources */ = {
 			isa = PBXGroup;
 			children = (
+				1DDC31801F777D4F003FA4B0 /* Proto */,
+				1D16D0531F74138400503DAE /* HFC */,
 				OBJ_8 /* main.swift */,
 			);
 			path = Sources;
@@ -4306,7 +4465,7 @@
 			knownRegions = (
 				en,
 			);
-			mainGroup = OBJ_5 /*  */;
+			mainGroup = OBJ_5;
 			productRefGroup = OBJ_1047 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -4336,7 +4495,30 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 0;
 			files = (
+				1DDC31B01F77821F003FA4B0 /* Kv_rwset.pb.swift in Sources */,
+				1DDC31B61F778233003FA4B0 /* configuration.pb.swift in Sources */,
+				1DDC319D1F778121003FA4B0 /* proposal.pb.swift in Sources */,
+				1DDC31AA1F77814B003FA4B0 /* mspconfig.pb.swift in Sources */,
+				1DDC31BA1F778233003FA4B0 /* policies.pb.swift in Sources */,
+				1DDC31A41F778135003FA4B0 /* configuration.pb.swift in Sources */,
+				1DDC31961F778121003FA4B0 /* admin.pb.swift in Sources */,
+				1DDC31B91F778233003FA4B0 /* common.pb.swift in Sources */,
 				OBJ_1063 /* Package.swift in Sources */,
+				1DDC31B71F778233003FA4B0 /* ledger.pb.swift in Sources */,
+				1DDC31B81F778233003FA4B0 /* configtx.pb.swift in Sources */,
+				1DDC31A31F778135003FA4B0 /* ab.pb.swift in Sources */,
+				1DDC319F1F778121003FA4B0 /* query.pb.swift in Sources */,
+				1DDC31A81F77814B003FA4B0 /* identity.pb.swift in Sources */,
+				1DDC31971F778121003FA4B0 /* chaincode_event.pb.swift in Sources */,
+				1DDC319B1F778121003FA4B0 /* chaincode.pb.swift in Sources */,
+				1DDC31951F778121003FA4B0 /* proposal_response.pb.swift in Sources */,
+				1DDC31A91F77814B003FA4B0 /* msp_principal.pb.swift in Sources */,
+				1DDC31981F778121003FA4B0 /* chaincodeEvent.pb.swift in Sources */,
+				1DDC319C1F778121003FA4B0 /* peer.pb.swift in Sources */,
+				1DDC319E1F778121003FA4B0 /* chaincodeShim.pb.swift in Sources */,
+				1DDC31A01F778121003FA4B0 /* transaction.pb.swift in Sources */,
+				1DDC31991F778121003FA4B0 /* events.pb.swift in Sources */,
+				1DDC319A1F778121003FA4B0 /* configuration.pb.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
