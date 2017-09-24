@@ -40,6 +40,7 @@ playground.xcworkspace
 .build/
 .DS_Store
 /*.xcodeproj
+*.xcodeproj
 
 # CocoaPods
 #

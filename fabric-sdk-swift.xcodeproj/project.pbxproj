@@ -57,6 +57,11 @@
 		1DDC31B81F778233003FA4B0 /* configtx.pb.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DDC31B31F778233003FA4B0 /* configtx.pb.swift */; };
 		1DDC31B91F778233003FA4B0 /* common.pb.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DDC31B41F778233003FA4B0 /* common.pb.swift */; };
 		1DDC31BA1F778233003FA4B0 /* policies.pb.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DDC31B51F778233003FA4B0 /* policies.pb.swift */; };
+		1DDC31BC1F77EDEA003FA4B0 /* Chain.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DDC31BB1F77EDEA003FA4B0 /* Chain.swift */; };
+		1DDC31BE1F77EE3F003FA4B0 /* Client.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DDC31BD1F77EE3F003FA4B0 /* Client.swift */; };
+		1DDC31C01F77EE73003FA4B0 /* Orderer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DDC31BF1F77EE73003FA4B0 /* Orderer.swift */; };
+		1DDC31C21F77EEB2003FA4B0 /* Peer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DDC31C11F77EEB2003FA4B0 /* Peer.swift */; };
+		1DDC31C41F77EED9003FA4B0 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DDC31C31F77EED9003FA4B0 /* User.swift */; };
 		OBJ_1063 /* Package.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_6 /* Package.swift */; };
 		OBJ_1069 /* Package.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_898 /* Package.swift */; };
 		OBJ_1075 /* Package.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_923 /* Package.swift */; };
@@ -1060,6 +1065,11 @@
 		1DDC31B31F778233003FA4B0 /* configtx.pb.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = configtx.pb.swift; path = Sources/Proto/Common/configtx.pb.swift; sourceTree = SOURCE_ROOT; };
 		1DDC31B41F778233003FA4B0 /* common.pb.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = common.pb.swift; path = Sources/Proto/Common/common.pb.swift; sourceTree = SOURCE_ROOT; };
 		1DDC31B51F778233003FA4B0 /* policies.pb.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = policies.pb.swift; path = Sources/Proto/Common/policies.pb.swift; sourceTree = SOURCE_ROOT; };
+		1DDC31BB1F77EDEA003FA4B0 /* Chain.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Chain.swift; path = Sources/HFC/FabricClient/Chain.swift; sourceTree = SOURCE_ROOT; };
+		1DDC31BD1F77EE3F003FA4B0 /* Client.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Client.swift; path = Sources/HFC/FabricClient/Client.swift; sourceTree = SOURCE_ROOT; };
+		1DDC31BF1F77EE73003FA4B0 /* Orderer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Orderer.swift; path = Sources/HFC/FabricClient/Orderer.swift; sourceTree = SOURCE_ROOT; };
+		1DDC31C11F77EEB2003FA4B0 /* Peer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Peer.swift; path = Sources/HFC/FabricClient/Peer.swift; sourceTree = SOURCE_ROOT; };
+		1DDC31C31F77EED9003FA4B0 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = User.swift; path = Sources/HFC/FabricClient/User.swift; sourceTree = SOURCE_ROOT; };
 		OBJ_100 /* e_des.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = e_des.c; sourceTree = "<group>"; };
 		OBJ_1000 /* timestamp.pb.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = timestamp.pb.swift; sourceTree = "<group>"; };
 		OBJ_1001 /* type.pb.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = type.pb.swift; sourceTree = "<group>"; };
@@ -2088,6 +2098,11 @@
 		1DDC315F1F777BDB003FA4B0 /* FabricClient */ = {
 			isa = PBXGroup;
 			children = (
+				1DDC31BB1F77EDEA003FA4B0 /* Chain.swift */,
+				1DDC31BD1F77EE3F003FA4B0 /* Client.swift */,
+				1DDC31BF1F77EE73003FA4B0 /* Orderer.swift */,
+				1DDC31C11F77EEB2003FA4B0 /* Peer.swift */,
+				1DDC31C31F77EED9003FA4B0 /* User.swift */,
 			);
 			name = FabricClient;
 			path = HFC/FabricClient;
@@ -4495,17 +4510,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 0;
 			files = (
+				1DDC31BC1F77EDEA003FA4B0 /* Chain.swift in Sources */,
 				1DDC31B01F77821F003FA4B0 /* Kv_rwset.pb.swift in Sources */,
 				1DDC31B61F778233003FA4B0 /* configuration.pb.swift in Sources */,
 				1DDC319D1F778121003FA4B0 /* proposal.pb.swift in Sources */,
 				1DDC31AA1F77814B003FA4B0 /* mspconfig.pb.swift in Sources */,
 				1DDC31BA1F778233003FA4B0 /* policies.pb.swift in Sources */,
+				1DDC31BE1F77EE3F003FA4B0 /* Client.swift in Sources */,
 				1DDC31A41F778135003FA4B0 /* configuration.pb.swift in Sources */,
+				1DDC31C41F77EED9003FA4B0 /* User.swift in Sources */,
 				1DDC31961F778121003FA4B0 /* admin.pb.swift in Sources */,
 				1DDC31B91F778233003FA4B0 /* common.pb.swift in Sources */,
 				OBJ_1063 /* Package.swift in Sources */,
 				1DDC31B71F778233003FA4B0 /* ledger.pb.swift in Sources */,
 				1DDC31B81F778233003FA4B0 /* configtx.pb.swift in Sources */,
+				1DDC31C21F77EEB2003FA4B0 /* Peer.swift in Sources */,
 				1DDC31A31F778135003FA4B0 /* ab.pb.swift in Sources */,
 				1DDC319F1F778121003FA4B0 /* query.pb.swift in Sources */,
 				1DDC31A81F77814B003FA4B0 /* identity.pb.swift in Sources */,
@@ -4517,6 +4536,7 @@
 				1DDC319C1F778121003FA4B0 /* peer.pb.swift in Sources */,
 				1DDC319E1F778121003FA4B0 /* chaincodeShim.pb.swift in Sources */,
 				1DDC31A01F778121003FA4B0 /* transaction.pb.swift in Sources */,
+				1DDC31C01F77EE73003FA4B0 /* Orderer.swift in Sources */,
 				1DDC31991F778121003FA4B0 /* events.pb.swift in Sources */,
 				1DDC319A1F778121003FA4B0 /* configuration.pb.swift in Sources */,
 			);
